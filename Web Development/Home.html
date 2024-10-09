@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Home page</title>
+       <style>
+        body,html{
+         margin: 0;
+         padding: 0;
+         font-family: sans-serif;
+        }
+
+        .navbar{
+            background-color: #333;
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .navbar a{
+            float: right;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none; 
+        }
+
+        .navbar a:hover{
+            
+            background-color: #ddd;
+            color: black;
+            
+        }
+
+        .Title{
+            height: 400px;
+            background-image: url("image.jpg");
+            display: flex;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .Title h1{
+           font-size: 3em;
+           text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .navb{
+          background-color: #333;
+          color: white;
+          text-align: center;
+          padding: 20px;
+          width: 100%;
+        }
+        
+        .navb a{
+          
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            padding: 14px;
+        }
+
+        .Section{
+          padding: 50px 20px;
+          max-width: 800px;
+          margin: 0 auto;
+
+        }
+
+        .Section button{
+          background-color: grey;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none; 
+        }
+
+        button:hover{
+            background-color: black;
+        }
+
+        .footer{
+          background-color: #333;
+          color: white;
+          text-align: center;
+          padding: 20px;
+          width: 100%;
+        }
+
+       
+
+       </style>
+    </head>
+    <body>
+      <div class="Title">
+       <h1>MPEKE TECH ACADEMY</h1>
+      </div>
+      
+      <div class="navb" id="NavBar"> 
+        <a href="#home">Home</a>
+        <a href="#contact">Contact</a>
+        <a href="#Our Courses">Courses</a>
+        <a href="#about">About</a>
+       
+      </div>
+
+      <div id="about"class="Section">
+        <h2>Welcome to Mpeke Tech Academy</h2>
+        <p>Mpeke Tech Academy is IT training institution with a dedicacy to provide a good,high-quality education
+          and skills development programs and courses in the fields of Programming, Cyber Security, 
+          Data Analysis and more.Our expect lectures/instructors and the relevant  curriculum offers 
+          students with the rightful knowledge,skills and expertice needed to succeed in the IT 
+          industry
+        </p>
+
+        <button><a href="About.html">Learn more about us</a></button>
+      </div>
+      <div id="Our Courses" class="Section">
+        <h2>Our Courses</h2>
+        <ul>
+            <li>Python Programming</li>
+            <li>Cyber Security</li>
+            <li>Data Analysis</li>
+        </ul>
+         <button><a href="Courses.html">View Courses</a></button>
+      </div>
+
+      <div id="contact"class="Section">
+        <h2>Contact Us</h2>
+        <p>Get intouch with us for any inquiries about our services</p>
+        <p>Email:kopanompeke@gmail.com</p>
+        <p>Phone:068 508 3355</p>
+      </div>
+
+      <div class="footer">
+        <p>&copy; 2024 MPEKE TECH ACADEMY Website.All rights reserved</p>
+      </div>
+    </body>
+</html>
